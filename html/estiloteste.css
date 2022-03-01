@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+}
+
+#contenedor {
+
+    background-color: black;
+}
+#testimonios {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-content: center;
+
+}
+
+header {
+
+    height: 120px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: header header;
+    
+    
+}
+
+main {
+    display: flex;
+    justify-content: center, space-between, space-evenly, space-around;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(46, 43, 43, 0.418);
+    height: 600px;
+    padding: 1%;
+   
+    
+    
+}
+h1 {
+    color:white;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
+    
+}
+
+h2 {
+    color:white;
+    text-align: center;
+    
+}
+nav{ 
+    
+    height: 50px;
+    
+}
+
+ul {
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.textoMenu {
+    list-style: none;
+    display: inline-block;
+    font-weight: bolder;
+    padding: 20px;
+    margin: 0%;
+    position: sticky;
+
+}
+.estiloParrafos {
+    color:white;
+    padding: 20px; 
+}
+
+form {
+    align-content: center;
+}
+
+#footer {
+    background-color: black;
+    text-align: center;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-items: center;
+    align-items: center;
+    height: 200px;
+    width: 60%;
+}
+  
+.sectionDos {
+    padding: 20px;
+}
+
+
+#formulario {
+    align-content: center;
+    justify-content: center;
+}
+
+#metodologia {
+    display: flex;
+    flex-direction: column;
+}

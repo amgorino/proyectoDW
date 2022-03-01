@@ -1,0 +1,211 @@
+* {
+   
+    padding: 0;
+}
+
+body {
+    position: relative;
+    background-color: black;
+}
+
+
+header {
+    display: grid;
+    grid-template-areas: header header;
+    grid-template-columns: 50% 50%;
+    height: 100px;
+    width: 100%;    
+}
+
+
+ .imagenTest {
+
+    height: 300px;
+    width: 50%;
+    margin-right: 10px;
+ }
+
+main {
+    display: flex;
+    justify-content: center, space-between, space-evenly, space-around;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+    padding: 1%;
+      
+}
+h1 {
+    color:white;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 15px;
+    
+}
+
+h1 {
+    animation-duration: 2s;
+    animation-name: titulo;
+    animation-iteration-count: 1;
+    
+ }
+ 
+ 
+ @keyframes titulo {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+
+h2 {
+    color:white;
+    text-align: center;
+    
+}
+
+h2 {
+    animation-duration: 2s;
+    animation-name: titulo;
+    animation-iteration-count: 1;
+    
+ }
+
+ @keyframes titulo {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+
+
+nav ul{ 
+    
+
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover {
+
+    color: plum;
+}
+.textoMenu {
+    list-style: none;
+    display: inline-block;
+    font-weight: bolder;
+    padding: 15px;
+    margin: 2%;
+    position: sticky;
+    
+
+}
+.estiloParrafos {
+    color:white;
+    padding: 20px; 
+}
+
+form {
+    align-content: center;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-items: center;
+    align-items: center;
+    height: 200px;
+    width: 60%;
+}
+  
+.sectionDos {
+    padding: 20px;
+}
+
+
+#formulario {
+    align-content: center;
+    justify-content: center;
+}
+
+#metodologia {
+    display: flex;
+    flex-direction: column;
+}
+
+#testimonio {
+
+    display: flex;
+    justify-content: center, space-between, space-evenly, space-around;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    margin:10px; 
+    border: 10px;
+    gap: 20px;
+
+}
+
+.imagenTest:hover {
+
+    transform: scale(1.1);
+}
+
+
+/***MEDIA QUERIES***/
+
+@media screen and (max-width:768px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        position: sticky;
+        height: 100px;
+        width: 100%;
+   }
+}
+
+@media screen and (max-width:768px) {
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center, space-between, space-evenly, space-around;
+        align-content: center;
+        justify-items: center;
+        align-items: center;
+        background-color: black;
+        height: 500px;
+        padding: 1%;
+      }
+}
+@media screen and (max-width:600px) {
+
+    .estiloParrafos {
+    color:white;
+    padding: 20px;
+    position: sticky;
+    }
+}
+
